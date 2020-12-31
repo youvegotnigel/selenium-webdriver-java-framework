@@ -26,7 +26,7 @@ public class BaseTests {
 
     @BeforeClass
     public void setUp() {
-        System.setProperty("webdriver.chrome.driver", "src/main/resources/drivers/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "resources\\drivers\\chromedriver.exe");
         driver = new EventFiringWebDriver(new ChromeDriver(getChromeOptions()));
         driver.register(new EventReporter());
         goHome();
@@ -58,7 +58,7 @@ public class BaseTests {
             var camera = (TakesScreenshot) driver;
             File screenshot = camera.getScreenshotAs(OutputType.FILE);
             try {
-                Files.move(screenshot, new File("/Users/iv_di/IdeaProjects/selenium-webdriver-java-framework/src/main/resources/screenshots"
+                Files.move(screenshot, new File("resources\\drivers\\screenshots"
                         + result.getName() + ".png"));
             } catch (IOException e) {
                 e.printStackTrace();
