@@ -10,7 +10,8 @@ public class FileUploadTests extends BaseTests {
     @Test
     public void testFileUpload() {
         var uploadPage = homePage.clickFileUpload();
-        uploadPage.uploadFile("resources\\drivers\\screenshots");
-        assertEquals(uploadPage.getUploadedFiles(), "chromedriver", "Uploaded files incorrect");
+        uploadPage.uploadFile("C:\\Essentials\\git-projects\\selenium-webdriver-java-framework\\resources\\drivers\\chromedriver.exe");
+        //uploadPage.uploadFile("resources\\drivers\\chromedriver.exe");
+        assertEquals(uploadPage.getUploadedFiles(), "chromedriver.exe", "Uploaded files incorrect");
     }
 }
