@@ -8,13 +8,13 @@
                     <include name="testSuccessfulLogin"/>
                 </methods>
             </class>
-            <class name="alerts.AlertTests">
-                <methods>
-                    <include name="testAcceptAlert"/>
-                    <include name="testGetTextFromAlert"/>
-                    <include name="testSetInputInAlert"/>
-                </methods>
-            </class>
+<!--            <class name="alerts.AlertTests">-->
+<!--                <methods>-->
+<!--                    <include name="testAcceptAlert"/>-->
+<!--                    <include name="testGetTextFromAlert"/>-->
+<!--                    <include name="testSetInputInAlert"/>-->
+<!--                </methods>-->
+<!--            </class>-->
         </classes>
     </test>
 </suite>
