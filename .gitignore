@@ -1,6 +1,7 @@
 /.idea/
 /target/
-/resources/screenshots*.png
+/resources/screenshots/*.png
+selenium-webdriver-java-framework.iml
 *.iml
 .classpath
 .project
