@@ -1,6 +1,7 @@
 package base;
 
 import com.google.common.io.Files;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -58,8 +59,7 @@ public class BaseTests {
             var camera = (TakesScreenshot) driver;
             File screenshot = camera.getScreenshotAs(OutputType.FILE);
             try {
-                Files.move(screenshot, new File("resources\\drivers\\screenshots"
-                        + result.getName() + ".png"));
+                Files.move(screenshot, new File("resources\\screenshots\\" + result.getName() + ".png"));
             } catch (IOException e) {
                 e.printStackTrace();
             }
@@ -74,7 +74,7 @@ public class BaseTests {
         ChromeOptions options = new ChromeOptions();
         // Disabling Chrome notification bar at the top of the browser saying "Chrome is being controlled by automated test software"
         options.setExperimentalOption("excludeSwitches", new String[]{"enable-automation"});
-        //options.setHeadless(true);
+        //options.setHeadless(true); //run headless
         return options;
     }
 
