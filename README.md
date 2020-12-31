@@ -1,3 +1,7 @@
+## How to run
+```bash
+run tests "mvn test"
+```
 ## selenium-webdriver-java-framework
 
 In this framework will be implemented:
@@ -14,3 +18,6 @@ In this framework will be implemented:
 * Run headless tests
 * Navigating multiple open tabs within a browser, as well as cookie management
 * Custom actions using JavaScript
+
+## Author
+* **Nigel Mulholland** - [Linkedin](https://www.linkedin.com/in/nigel-mulholland/) 
