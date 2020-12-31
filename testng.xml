@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="All Tests">
+        <classes>
+            <class name="alerts.AlertTests">
+                <methods>
+                    <include name="testAcceptAlert"/>
+                    <include name="testGetTextFromAlert"/>
+                    <include name="testSetInputInAlert"/>
+                </methods>
+            </class>
+            <class name="alerts.FileUploadTests">
+                <methods>
+                    <include name="testFileUpload"/>
+                </methods>
+            </class>
+            <class name="contextmenu.ContextMenuTests">
+                <methods>
+                    <include name="testRightClick"/>
+                </methods>
+            </class>
+            <class name="cookies.CookiesTests">
+                <methods>
+                    <include name="testDeleteCookie"/>
+                </methods>
+            </class>
+            <class name="dropdown.DropdownTests">
+                <methods>
+                    <include name="testSelectOption"/>
+                </methods>
+            </class>
+            <class name="frames.FrameTests">
+                <methods>
+                    <include name="testWysiwyg"/>
+                    <include name="testFrameText"/>
+                </methods>
+            </class>
+            <class name="hover.HoverTests">
+                <methods>
+                    <include name="testHoverUser1"/>
+                </methods>
+            </class>
+            <class name="javascript.JavaScriptTests">
+                <methods>
+                    <include name="testScrollToTable"/>
+                    <include name="testScrollToFifthParagraph"/>
+                    <include name="testAddMultipleAttributeToDropdown"/>
+                </methods>
+            </class>
+            <class name="keys.KeysTests">
+                <methods>
+                    <include name="testBackspace"/>
+                    <include name="tesgitPi"/>
+                </methods>
+            </class>
+            <class name="login.LoginTests">
+                <methods>
+                    <include name="testSuccessfulLogin"/>
+                </methods>
+            </class>
+            <class name="navigation.NavigationTests">
+                <methods>
+                    <include name="testNavigator"/>
+                    <include name="testSwitchTab"/>
+                    <include name="testWindowTabs"/>
+                </methods>
+            </class>
+            <class name="passwords.ForgotPasswordTests">
+                <methods>
+                    <include name="testRetrievePassword"/>
+                </methods>
+            </class>
+            <class name="slider.SliderTests">
+                <methods>
+                    <include name="testSlideToWholeNumber"/>
+                    <include name="testSlideToDecimalNumber"/>
+                </methods>
+            </class>
+            <class name="wait.WaitTests">
+                <methods>
+                    <include name="testWaitUntilHidden"/>
+                    <include name="testWaitUntilVisible"/>
+                </methods>
+            </class>
+            <class name="windows.WindowTests">
+                <methods>
+                    <include name="testWindowTabs"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
