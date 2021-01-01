@@ -19,6 +19,7 @@ In this framework will be implemented:
 * Navigating multiple open tabs within a browser, as well as cookie management
 * Custom actions using JavaScript
 * Drag and Drop tests using Actions class
+* Tooltip validations
 
 ## Author
 * **Nigel Mulholland** - [Linkedin](https://www.linkedin.com/in/nigel-mulholland/) 
