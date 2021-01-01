@@ -88,6 +88,17 @@
                     <include name="testWindowTabs"/>
                 </methods>
             </class>
+            <class name="dragAndDrop.DragAndDropTest">
+                <methods>
+                    <include name="navigation"/>
+                    <include name="verifyDragAndDrop"/>
+                </methods>
+            </class>
+            <class name="tooltip.ToolTipTest">
+                <methods>
+                    <include name="navigation"/>
+                </methods>
+            </class>
         </classes>
     </test>
 </suite>

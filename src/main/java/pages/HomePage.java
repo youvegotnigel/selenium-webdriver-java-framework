@@ -94,4 +94,9 @@ public class HomePage {
         driver.get("http://demo.guru99.com/test/drag_drop.html");
         return new DragAndDropPage(driver);
     }
+
+    public ToolTipPage navigateToToolTipDemoSite(){
+        driver.get("http://demo.guru99.com/test/tooltip.html");
+        return new ToolTipPage(driver);
+    }
 }

@@ -48,7 +48,6 @@ public class DragAndDropPage {
     public void dragAndDrop(WebElement From, WebElement To) {
         //Using Action class for drag and drop.
         Actions act = new Actions(driver);
-
         act.dragAndDrop(From,To).build().perform();
     }
 
