@@ -89,4 +89,9 @@ public class HomePage {
         clickLink("Frames");
         return new FramesPage(driver);
     }
+
+    public DragAndDropPage navigateToGuruDemoSite(){
+        driver.get("http://demo.guru99.com/test/drag_drop.html");
+        return new DragAndDropPage(driver);
+    }
 }

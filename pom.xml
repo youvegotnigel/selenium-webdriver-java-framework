@@ -8,10 +8,10 @@
     <artifactId>selenium-webdriver-java-framework</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-        <properties>
-            <maven.compiler.target>11</maven.compiler.target>
-            <maven.compiler.source>11</maven.compiler.source>
-        </properties>
+<!--        <properties>-->
+<!--            <maven.compiler.target>11</maven.compiler.target>-->
+<!--            <maven.compiler.source>11</maven.compiler.source>-->
+<!--        </properties>-->
 
     <!-- Plug-ins required for executing Tests  -->
     <build>
