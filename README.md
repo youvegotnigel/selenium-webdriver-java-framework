@@ -18,6 +18,7 @@ In this framework will be implemented:
 * Run headless tests
 * Navigating multiple open tabs within a browser, as well as cookie management
 * Custom actions using JavaScript
+* Drag and Drop tests using Actions class
 
 ## Author
 * **Nigel Mulholland** - [Linkedin](https://www.linkedin.com/in/nigel-mulholland/) 
